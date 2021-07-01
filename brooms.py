@@ -1,8 +1,3 @@
-from icecream import ic
-import sys
-sys.path.append ('/1vsCode/python/myPlot')
-import myPlot as mp
-
 def paramGen(layer, totalLayers, steps, start, stop):
     inc = (stop - start) / (steps - 1)
     val = start
